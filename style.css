@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: royalblue;
+  height: 60px;
+  padding: 15px 0 0 30px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 50px;
+  text-decoration: none;
+  color: #fff;
+}
+
+#root {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  line-height: 1.5;
+}
+p {
+  margin-top: 20px;
+}
+
+.aboutme,
+.contactme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contactBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.contactme a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+  padding: 10px 15px;
+  border: 1px solid bisque;
+  background-color: bisque;
+  border-radius: 15px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+.contactme a:first-child {
+  margin-right: 30px;
+}
+
+.contactme a:hover {
+  background-color: royalblue;
+  color: #fff;
+}
